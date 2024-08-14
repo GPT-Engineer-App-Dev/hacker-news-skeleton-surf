@@ -4,14 +4,14 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 const StoryCardSkeleton = () => {
   return (
-    <Card className="h-full flex flex-col">
+    <Card className="h-full flex flex-col bg-gray-800 border-gray-700">
       <CardContent className="flex-grow pt-6">
-        <Skeleton className="h-6 w-3/4 mb-2" />
-        <Skeleton className="h-4 w-1/4 mb-4" />
-        <Skeleton className="h-4 w-1/2" />
+        <Skeleton className="h-6 w-3/4 mb-2 bg-gray-700" />
+        <Skeleton className="h-4 w-1/4 mb-4 bg-gray-700" />
+        <Skeleton className="h-4 w-1/2 bg-gray-700" />
       </CardContent>
       <CardFooter>
-        <Skeleton className="h-10 w-full" />
+        <Skeleton className="h-10 w-full bg-gray-700" />
       </CardFooter>
     </Card>
   );
